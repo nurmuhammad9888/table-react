@@ -30,7 +30,6 @@ export default function FieldArray({ control, register, setValue, getValues }) {
 								<input type="text" className='form-control form-input mx-2 w-75' {...register(`test.${index}.pinfl`, { required: true })} placeholder="PINFL" />
 								<input type="text"className='form-control form-input' {...register(`test.${index}.fio`, { required: true })} placeholder="FIO" />
 							</div>
-
 							<h4 className='text-primary mt-5'>Tables list</h4>
 							<div className='d-flex'>
 								<div className='d-flex gap-2 w-50'>
